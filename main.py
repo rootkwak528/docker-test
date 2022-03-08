@@ -1,7 +1,7 @@
 import sys
 
-line = ["hello world!"]
+line = ["Hello"]
 if len(sys.argv) > 1:
     line.extend(sys.argv[1:])
 
-print(" ".join(line))
+print(" ".join(line + ["!"]))
